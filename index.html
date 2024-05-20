@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex,nofollow">
+<title>Color Pallet</title>
+<link rel="stylesheet" href="./css/normalize.css">
+<link rel="stylesheet" href="./css/main.css">
+<link rel="icon" href=image\favicon.jpg>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+<script src=js\vendor\jquery-1.10.2.min.js></script>
+<script src=js\vendor\jquery-ui-1.10.3.custom.min.js></script>
+<script src=js\main.js></script>
+</head>
+<body>
+    <h1>カラーパレット</h1>
+    <h2>パレット内の任意の色をクリック</h2>
+    <div class="pallet">
+        <input type="color" id="color" name="color">
+        <input type="text" class="cord" value="#000000" name="cord">
+        <input type="button" class="copy" value="コピー" name="copy">
+        <input type="button" class="reset" value="リセット" name="reset">
+    </div>
+    <h2>バーをスライドして色を表示</h2>
+    <div class="slide">
+        <div class="slide-area">
+        <div class="bar">
+            <label>red：<span class="redVal">128</span></label>
+            <input type="range" id="red" min="0" max="255" name="red">
+        </div>
+        <div class="bar">
+            <label>green：<span class="greenVal">128</span></label>
+            <input type="range" id="green" min="0" max="255" name="blue">
+        </div>
+        <div class="bar">
+            <label>blue：<span class="blueVal">128</span></label>
+            <input type="range" id="blue" min="0" max="255" name="yellow">
+        </div>
+        <div class="bar">
+            <label>alpha：<span class="alphaVal">1</span></label>
+            <input type="range" id="alpha" min="0" max="1" step="0.01" value="1" name="yellow">
+        </div>
+        </div>
+        <p>サンプル
+            <br><span class="sample">サンプル</span>
+            <br>サンプル
+            <br><span class="sample">サンプル</span>
+        </p>
+        <input type="text" class="cord" value="rgba(128, 128, 128, 1)" name="cord">
+        <input type="button" class="copy" value="コピー" name="copy">
+        <input type="button" class="reset" value="リセット" name="reset">
+    </div>
+</body>
+</html>

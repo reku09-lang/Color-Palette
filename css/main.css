@@ -1,0 +1,99 @@
+body {
+    background-color: #ffffff;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+h1 {
+    margin: 30px;
+}
+
+h2 {
+    margin: 50px;
+}
+
+.pallet {
+    margin-left: 50px;
+}
+
+.pallet #color {
+    width: 300px;
+    height: 100px;
+    background: none;
+    border: none;
+}
+
+.pallet .cord {
+    width: 100px;
+    border: 1px solid #000;
+    margin: 0 30px;
+}
+
+.pallet .copy, .pallet .reset {
+    border: 1px solid #000;
+    background-color: #f7f7f7;
+}
+
+.pallet .copy:hover, .pallet .reset:hover {
+    background-color: #dcdcdc;
+}
+
+.slide {
+    margin-left: 50px;
+}
+
+.slide-area {
+    text-align: right;
+    width: 560px;
+}
+
+.bar {
+    margin-bottom: 20px;
+}
+
+#red, #green, #blue, #alpha {
+    width: 450px;
+}
+
+#red {
+    accent-color: red;
+}
+
+#green {
+    accent-color: green;
+}
+
+#blue {
+    accent-color: blue;
+}
+
+#alpha {
+    accent-color: #7f7f7f;
+}
+
+.slide p {
+    text-align: center;
+    width: 580px;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 1);
+}
+
+.sample {
+    color: #ffffff;
+}
+
+.slide .cord {
+    border: 1px solid #000;
+    margin: 0 50px;
+}
+
+.slide .copy, .slide .reset {
+    border: 1px solid #000;
+    background-color: #f7f7f7;
+}
+
+.slide .copy:hover, .slide .reset:hover {
+    background-color: #dcdcdc;
+}
